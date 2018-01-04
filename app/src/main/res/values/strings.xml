@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">UnivRennesBeaulieu</string>
+    <string name="ActionBarTitle">Map Beaulieu Campus</string>
+    <string name="parking">parking</string>
+    <string name="allbuildings">All Buildings</string>
+    <string name="rennes1">Rennes 1</string>
+    <string name="iut">IUT</string>
+    <string name="other">other</string>
 </resources>
