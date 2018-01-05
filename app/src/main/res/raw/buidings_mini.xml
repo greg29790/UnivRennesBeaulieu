@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <buildings>
+        <building>
+			<id>building_1a</id>
+            <name>Bâtiment 1A</name>
+            <rooms>
+                <room type="DEFAULT">Accueil, Standard</room>
+                <room type="DEFAULT">Poste de sécurité</room>
+                <room type="DEFAULT">Antenne budgétaire</room>
+                <room type="DEFAULT">Imprimerie</room>
+                <room type="DEFAULT">Pôle écoles doctorales</room>
+                <room type="DEFAULT">Salle des thèses</room>
+                <room type="DEFAULT">Scolarité sciences</room>
+                <room type="DEFAULT">Service gestion campus</room>
+                <room type="DEFAULT">Service intérieur de Beaulieu</room>
+                <room type="DEFAULT">UFR Sciences et Propriétés de la Matière</room>
+            </rooms>
+        </building>
+        <building>
+			<id>building_2a</id>
+            <name>Bâtiment 2A</name>
+            <rooms>
+                <room>Appariteurs zone Sud</room>
+                <room type="AMPHI">Louis-Antoine</room>
+                <room type="AMPHI">A</room>
+                <room type="AMPHI">B</room>
+                <room type="AMPHI">C</room>
+                <room type="AMPHI">D</room>
+                <room type="AMPHI">E</room>
+                <room type="EXAM">Hall des examens</room>
+                <room type="TEACHING">Salles d'enseignement</room>
+                <room type="COMPUTER">Salles informatiques libre service</room>
+                <room type="TP">informatique</room>
+            </rooms>
+        </building>
+        <building>
+			<id>building_1b</id>
+            <name>Bâtiment 2B</name>
+            <rooms>
+                <room type="TEACHING">Salles d'enseignement</room>
+                <room type="TP">informatique</room>
+                <room type="COMPUTER">Salles informatiques libre service</room>
+            </rooms>
+        </building>
+        <building>
+			<id>building_3</id>
+            <name>Bâtiment 3</name>
+            <rooms>
+                <room type="TP">Zoologie</room>
+            </rooms>
+        </building>
+        <building>
+			<id>building_4</id>
+            <name>Bâtiment 4</name>
+            <rooms>
+                <room type="DEFAULT">Collections et musée de zoologie</room>
+                <room type="TP">botanique</room>
+            </rooms>
+        </building>
+        <building>
+			<id>building_5</id>
+            <name>Bâtiment 5</name>
+            <rooms>
+                <room type="DEFAULT">Collections et musée de géologie</room>
+                <room type="TP">géologie</room>
+                <room type="TP">électronique</room>
+            </rooms>
+        </building>
+        <building>
+			<id>building_6</id>
+            <name>Bâtiment 6</name>
+            <rooms>
+                <room type="DEFAULT">Collection instruments anciens</room>
+                <room type="TP">physique</room>
+                <room type="TP">électronique</room>
+            </rooms>
+        </building>
+        <building>
+			<id>building_7</id>
+            <name>Bâtiment 7</name>
+            <rooms>
+                <room type="TP">chimie</room>
+            </rooms>
+        </building>
+        <building>
+			<id>building_8a</id>
+            <name>Bâtiment 8A</name>
+            <rooms>
+                <room type="DEFAULT">Action sociale de l'université de Rennes 1 (ASUR)</room>
+                <room type="DEFAULT">Comité action sociale CNRS (CLE CLAS CAES)</room>
+                <room type="DEFAULT">IUT département carrières sociales (IUT CS)</room>
+                <room type="DEFAULT">IUT département gestion des entreprises et des administrations (IUT GEA)</room>
+                <room type="DEFAULT">Service de Médecine Universitaire du Travail (SMUT)</room>
+                <room type="EXAM">Salles d'examen</room>
+            </rooms>
+        </building>
+        <building>
+			<id>building_8b</id>
+            <name>Bâtiment 8B</name>
+            <rooms>
+                <room type="LIBRARY">Paul le Bohec</room>
+                <room type="DEFAULT">Salle Condorcet</room>
+            </rooms>
+        </building>
+        <building>
+			<id>building_9</id>
+            <name>Bâtiment 9A,B</name>
+            <rooms>
+                <room type="DEFAULT">Pôle images et réseaux</room>
+                <room type="DEFAULT">Salle immersive INRIA</room>
+                <room type="DEFAULT">Salle visioconférence UEB</room>
+				<room type="DEFAULT">Pôle Numérique Rennes Beaulieu (PNRB)</room>
+                <room type="DEFAULT">SUPTICE (Service universitaire de pédagogie et des TICE)</room>
+            </rooms>
+        </building>
+        <building>
+			<id>building_10abc</id>
+            <name>Bâtiments 10A,B,C</name>
+            <rooms>
+                <room type="DEFAULT">Institut des Sciences Chimiques de Rennes (ISCR)</room>
+            </rooms>
+        </building>
+        <building>
+			<id>building_10b</id>
+            <name>Bâtiment 10B</name>
+            <rooms>
+                <room type="DEFAULT">Laboratoire de recherche en mécanique appliquée (LARMAUR)</room>
+                <room type="AMPHI">Daniel Grandjean</room>
+            </rooms>
+        </building>
+    </buildings>

@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         final RecyclerView rv_buildings = (RecyclerView) findViewById(R.id.list_buildings);
 
         rv_buildings.setLayoutManager(new LinearLayoutManager(this));
-        rv_buildings.setAdapter(new BuildingsAdapter());
+        rv_buildings.setAdapter(new BuildingsAdapter(this));
     }
 
     // No menu for the moment
