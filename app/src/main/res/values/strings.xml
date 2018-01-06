@@ -6,4 +6,7 @@
     <string name="rennes1">Rennes 1</string>
     <string name="iut">IUT</string>
     <string name="other">other</string>
+    <string name="not_found">not found</string>
+    <string name="building_Info">buildingInfo</string>
+    <string name="drawable">drawable</string>
 </resources>

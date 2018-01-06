@@ -1,6 +1,7 @@
 package com.gquere.univrennesbeaulieu;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -26,10 +27,12 @@ public class BuildingsAdapter extends RecyclerView.Adapter<BuildingsAdapter.Buil
 
     private List<BuildingXmlParser.Building> list_buildings = new ArrayList<>();
     private BuildingXmlParser bxp = new BuildingXmlParser();
+    private Context context;
 
     public  BuildingsAdapter(Context context){
-        final InputStream stream = context.getResources().openRawResource(R.raw.buidings_mini);
+        this.context = context;
 
+        final InputStream stream = this.context.getResources().openRawResource(R.raw.buidings_mini);
 
         try {
             list_buildings = bxp.parse(stream);
@@ -71,10 +74,9 @@ public class BuildingsAdapter extends RecyclerView.Adapter<BuildingsAdapter.Buil
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    new AlertDialog.Builder(itemView.getContext())
-                            .setTitle("Batiment")
-                            .setMessage(name.getText())
-                            .show();
+                    Intent intent = new Intent(context, MapUnivActivity.class);
+                    intent.putExtra(context.getString(R.string.building_Info), building);
+                    context.startActivity(intent);
                 }
             });
         }

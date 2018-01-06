@@ -35,7 +35,7 @@
             </rooms>
         </building>
         <building>
-			<id>building_1b</id>
+			<id>building_2b</id>
             <name>Bâtiment 2B</name>
             <rooms>
                 <room type="TEACHING">Salles d'enseignement</room>
@@ -96,7 +96,7 @@
             </rooms>
         </building>
         <building>
-			<id>building_8b</id>
+			<id>building_8</id>
             <name>Bâtiment 8B</name>
             <rooms>
                 <room type="LIBRARY">Paul le Bohec</room>

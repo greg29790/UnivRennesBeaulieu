@@ -7,6 +7,7 @@ import org.xmlpull.v1.XmlPullParserException;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -17,7 +18,7 @@ import java.util.List;
 public class BuildingXmlParser {
     private static final String ns = null;
 
-    public static class Building {
+    public static class Building implements Serializable{
         public final String id;
         public final String name;
 
