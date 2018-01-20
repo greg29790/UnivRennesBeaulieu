@@ -2,6 +2,7 @@ package com.gquere.univrennesbeaulieu;
 
 import android.util.Xml;
 
+import org.w3c.dom.Element;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 
@@ -26,6 +27,12 @@ public class BuildingXmlParser {
         private Building(String id, String name) {
             this.id = id;
             this.name = name;
+        }
+
+        public Building(Element element)
+        {
+            id = element.getElementsByTagName("id").item(0).getTextContent();
+            name = element.getElementsByTagName("name").item(0).getTextContent();
         }
     }
 

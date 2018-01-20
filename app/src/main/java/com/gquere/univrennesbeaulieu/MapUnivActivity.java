@@ -1,14 +1,19 @@
 package com.gquere.univrennesbeaulieu;
 
+import android.graphics.Matrix;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.MotionEvent;
+import android.view.ScaleGestureDetector;
 import android.widget.ImageView;
 
-import com.gquere.univrennesbeaulieu.BuildingXmlParser.Building;
+//import com.gquere.univrennesbeaulieu.BuildingXmlParser.Building;
 
 public class MapUnivActivity extends AppCompatActivity {
+    private ImageView emptyMapImg;
+    private ImageView buildingImg;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,10 +37,12 @@ public class MapUnivActivity extends AppCompatActivity {
         }
         else
         {
-            ImageView buildingImg = (ImageView) findViewById(R.id.building_img);
+            //emptyMapImg = (ImageView) findViewById(R.id.empty_map);
+            buildingImg = (ImageView) findViewById(R.id.building_img);
             buildingImg.setImageResource(resourceId);
+
         }
-
-
     }
+
+
 }
